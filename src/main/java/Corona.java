@@ -27,7 +27,7 @@ public class Corona {
         webhook.username = "Coronavirus Stats";
         embed.color = 0xabcdef;
         embed.title = Calendar.getInstance().getTime().toString();
-        embed.description = "I blame this shit on Alex's people";
+        embed.description = "I blame this shit on Alex's people!";
         var confirmed = new EmbedFields("Confirmed", String.valueOf(stats.confirmed));
         var deaths = new EmbedFields("Deaths", String.valueOf(stats.deaths));
         var recovered = new EmbedFields("Recovered", String.valueOf(stats.recovered));
