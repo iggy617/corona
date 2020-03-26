@@ -24,7 +24,7 @@ public class Corona {
         var webhook = new Webhook();
         var embed = new Embed();
         webhook.avatar_url = "https://upload.wikimedia.org/wikipedia/en/b/b3/Plague_Inc._app_icon.png";
-        webhook.username = "Coronavirus Stats";
+        webhook.username = "It's Corona Time!";
         embed.color = 0xabcdef;
         embed.title = Calendar.getInstance().getTime().toString();
         embed.description = "ree!";
